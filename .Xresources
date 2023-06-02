@@ -1,0 +1,113 @@
+Xcursor.theme:  Bibata-Modern-Ice
+Xcursor.size:   36
+
+#include ".config/xrdb/onedark.theme"
+
+*.foreground:   fg
+*.background:   bg
+*.cursorColor:  cc
+
+*.color0:       c00
+*.color1:       c01
+*.color2:       c02
+*.color3:       c03
+*.color4:       c04
+*.color5:       c05
+*.color6:       c06
+*.color7:       c08
+
+*.color8:       c08
+*.color9:       c09
+*.color10:      c10
+*.color11:      c11
+*.color12:      c12
+*.color13:      c13
+*.color14:      c14
+*.color15:      c15
+
+st.font:		JetBrainsMono Nerd Font:style:medium:pixelsize=22
+st.borderpx:	10
+st.alpha:		0.5
+
+dmenu.background:		bg
+dmenu.foreground:		fg
+dmenu.selbackground:	accent
+dmenu.selforeground:	c15
+dmenu.bordercolor:		c04
+dmenu.font:             Noto Sans:size=15
+
+dwm.c000000:                    
+
+dwm.normfgcolor:            fg
+dwm.normbgcolor:            bg
+dwm.normbordercolor:        c08
+dwm.normfloatcolor:         c08
+
+dwm.selfgcolor:             c15
+dwm.selbgcolor:             bg
+dwm.selbordercolor:         c04
+dwm.selfloatcolor:          c05
+
+dwm.titlenormfgcolor:       fg
+dwm.titlenormbgcolor:       bg
+dwm.titlenormbordercolor:   black
+dwm.titlenormfloatcolor:    black
+
+dwm.titleselfgcolor:        c15
+dwm.titleselbgcolor:        bg
+dwm.titleselbordercolor:	black
+dwm.titleselfloatcolor:     black
+
+dwm.tagsnormfgcolor:		accent
+dwm.tagsnormbgcolor:		bg
+dwm.tagsnormbordercolor:	black
+dwm.tagsnormfloatcolor:		black
+
+dwm.tagsoccfgcolor:			c03
+dwm.tagsoccbgcolor:			bg
+dwm.tagsoccbordercolor:		black
+dwm.tagsoccfloatcolor:		black
+
+dwm.tagsselfgcolor:			c15
+dwm.tagsselbgcolor:			bg
+dwm.tagsselbordercolor:		black
+dwm.tagsselfloatcolor:		black
+
+dwm.hidnormfgcolor:			fg
+dwm.hidselfgcolor:			c15
+dwm.hidnormbgcolor:			black
+dwm.hidselbgcolor:			black
+
+dwm.ltsymbolfgcolor:		c11
+dwm.ltsymbolbgcolor:		bg
+dwm.stbuttonfgcolor:		c05
+dwm.stbuttonbgcolor:		bg
+
+dwm.urgfgcolor:				c15
+dwm.urgbgcolor:				c01
+dwm.urgbordercolor:			c01
+dwm.urgfloatcolor:			c01
+
+dwm.scratchselfgcolor:      c15
+dwm.scratchselbgcolor:      bg
+dwm.scratchselbordercolor:  c01
+dwm.scratchselfloatcolor:   c01
+
+dwm.scratchnormfgcolor:     fg
+dwm.scratchnormbgcolor:     bg
+dwm.scratchnormbordercolor: c08
+dwm.scratchnormfloatcolor:  c08
+
+dwm.stickyfgcolor:			fg
+dwm.stickybgcolor:			bg
+dwm.stickybordercolor:		c03
+dwm.stickyfloatcolor:		c03
+
+dwm.tag1fgcolor:   c15
+dwm.tag2fgcolor:   orange
+dwm.tag3fgcolor:   c02
+dwm.tag4fgcolor:   c03
+dwm.tag5fgcolor:   c05
+dwm.tag6fgcolor:   c01
+dwm.tag7fgcolor:   c04
+dwm.tag8fgcolor:   c06
