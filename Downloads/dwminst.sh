@@ -5,6 +5,7 @@ sudo pacman -S xorg \
   alacritty \
   dunst \
   libnotify \
+  imlib2 \
   lxappearance \
   polkit-gnome \
   nitrogen \
@@ -28,7 +29,8 @@ sudo pacman -S xorg \
   imagemagick \
   xcolor \
   gpick \
-  jq
+  jq \
+  pulsemixer
 
 mkdir -p ~/.local/src && cd ~/.local/src
 git clone https://aur.archlinux.org/paru-bin
@@ -50,6 +52,11 @@ cp autoastart.sh ~/.local/share/dwm
 cd ~/.local/src
 git clone https://github.com/amazingwilf/dmenu
 cd dmenu
+make clean && make && sudo make install
+
+cd ~/.local/src
+git clone https://github.com/amazingwilf/st
+cd st
 make clean && make && sudo make install
 
 cd ~/.local/src
