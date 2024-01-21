@@ -1,0 +1,99 @@
+Xcursor.theme:  Bibata-Modern-Ice
+Xcursor.size:   24
+
+#define black  #000000
+#define base00 #101010
+#define base01 #242242
+#define base02 #3e4451
+#define base03 #414141
+#define base04 #565c64
+#define base05 #abb2bf
+#define base06 #b6bdca
+#define base07 #c8ccd4
+#define base08 #e06c75
+#define base09 #d19a66
+#define base0A #e5c07b
+#define base0B #98c379
+#define base0C #56b6c2
+#define base0D #61afef
+#define base0E #c678dd
+#define base0F #be5046
+
+*.background:   base00
+*.foreground:   base06
+*.cursorColor:  base09
+
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+
+*.color8:       base03
+*.color9:       base09
+*.color10:      base0B
+*.color11:      base0A
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0C
+*.color15:      base07
+
+
+dwm.normfgcolor:            base06  
+dwm.normbgcolor:            base00
+dwm.normbordercolor:        base03
+
+dwm.selfgcolor:             base07
+dwm.selbgcolor:             base0F
+dwm.selbordercolor:         base0D
+
+dwm.floatfgcolor:           base06
+dwm.floatbgcolor:           base00
+dwm.floatbordercolor:       base0E
+
+dwm.scratchnormfgcolor:           base06
+dwm.scratchnormbgcolor:           base00
+dwm.scratchnormbordercolor:       base03
+
+dwm.scratchselfgcolor:           base06
+dwm.scratchselbgcolor:           base00
+dwm.scratchselbordercolor:       base0B
+
+dwm.stbuttonfgcolor:        base0C
+dwm.stbuttonbgcolor:        base00
+dwm.stbuttonbordercolor:    black
+
+dwm.tagsnormfgcolor:        base03
+dwm.tagsnormbgcolor:        base00
+dwm.tagsnormbordercolor:    black
+
+dwm.tagsoccfgcolor:         base0C
+dwm.tagsoccbgcolor:         base00
+dwm.tagsoccbordercolor:     black
+
+dwm.tagsselfgcolor:         base07
+dwm.tagsselbgcolor:         base00
+dwm.tagsselbordercolor:     black
+
+dwm.ltsymbolfgcolor:        base0A
+dwm.ltsymbolbgcolor:        base00
+dwm.ltsymbolbordercolor:    black
+
+dwm.titlefgcolor:           base07
+dwm.titlebgcolor:           base00
+dwm.titlebordercolor:       black
+
+
+dmenu.background:           base00
+dmenu.foreground:           base0D
+dmenu.selbackground:        #aa0000
+dmenu.selforeground:        base0A
+dmenu.bordercolor:          base0D
+dmenu.font:                 Ubuntu:size=14
+
+st.font:                    JetBrainsMono Nerd Font:size=15
+st.borderpx:                14
+st.alpha:                   0.65
