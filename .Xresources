@@ -1,0 +1,76 @@
+Xft.dpi:    144
+
+Xcursor.theme:  Breeze_Snow
+Xcursor.size:   44
+
+#define bg  #1e1e2e
+#define fg  #cdd6f4
+#define cc  #f5e0dc
+
+#define c00 #45475a
+#define c01 #f38ba8
+#define c02 #a6e3a1
+#define c03 #f9e2af
+#define c04 #89b4fa
+#define c05 #f5c2e7
+#define c06 #94e2d5
+#define c07 #bac2de
+#define c08 #585b70
+#define c09 #f38ba8
+#define c10 #a6e3a1
+#define c11 #f9e2af
+#define c12 #89b4fa
+#define c13 #f5c2e7
+#define c14 #94e2d5
+#define c15 #a6adc8
+
+
+
+*.background:	bg
+*.foreground:	fg
+
+*.color0:		c00
+*.color1:		c01
+*.color2:		c02
+*.color3:		c03
+*.color4:		c04
+*.color5:		c05
+*.color6:		c06
+*.color7:		c07
+
+*.color8:		c08
+*.color9:		c09
+*.color10:		c10
+*.color11:		c11
+*.color12:		c12
+*.color13:		c13
+*.color14:		c14
+*.color15:		c15
+
+dwm.normfgcolor:		c04
+dwm.normbgcolor:		#000000
+dwm.normbordercolor:	c08
+dwm.normfloatcolor:		c08
+
+dwm.selfgcolor:			fg
+dwm.selbgcolor:			#000000
+dwm.selbordercolor:		c04
+dwm.selfloatcolor:		c02
+
+dwm.scratchnormfgcolor:		c04
+dwm.scratchnormbgcolor:		bg
+dwm.scratchnormbordercolor:	c08
+dwm.scratchnormfloatcolor:		c08
+
+dwm.scratchselfgcolor:			fg
+dwm.scratchselbgcolor:			bg
+dwm.scratchselbordercolor:		c03
+dwm.scratchselfloatcolor:		c03
+
+dwm.ltsymbolfgcolor:	c03
+dwm.ltsymbolbgcolor:	#000000
+
+dwm.dmenunormfgcolor:	c04
+dwm.dmenunormbgcolor:	c00
+dwm.dmenuselfgcolor:	c03
+dwm.dmenuselbgcolor:	#990000
