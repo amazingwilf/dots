@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+. /usr/local/bin/statusbar/colors
+
+updates=`xbps-install -nuM | wc -l`
+
+case $BLOCK_BUTTON in
+    1) setsid --fork alacritty --class "updates,updates" -e doas xbps-install -Su ;;
+esac
+
+
+if [ "$updates" -eq "0" ]; then
+  printf "  ^c$red^ Fully Updated"
+else
+  printf "  ^c$red^ $updates"" updates"
+fi
+
