@@ -19,14 +19,14 @@
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
     X("", "/usr/local/bin/statusbar/battery", 5, 1) \
-    X("", "/usr/local/bin/statusbar/clock", 1, 2) 
+    X("", "/usr/local/bin/statusbar/volume", 0, 2)  \
+    X("", "/usr/local/bin/statusbar/clock", 1, 3) 
     /*X("", "sb-music", 0, 2)   \*/
     /*X("", "sb-disk", 1800, 3) \*/
     /*X("", "sb-memory", 10, 4) \*/
     /*X("", "sb-loadavg", 5, 5) \*/
     /*X("", "sb-mic", 0, 6)     \*/
     /*X("", "sb-record", 0, 7)  \*/
-    /*X("", "sb-volume", 0, 8)  \*/
     /*X("", "sb-battery", 5, 9) \*/
     /*X("", "sb-date", 1, 10)*/
 

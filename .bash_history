@@ -1,106 +1,3 @@
-cd sxhkd/
-cp ~/.local/src/voidcraft/files/skel/.config/bspwm/sxhkdrc .
-ls
-nvim sxhkdrc 
-cdd
-nd
-mall
-cds
-git clone https://github.com/siduck/chadwm
-cd chadwm/
-ls
-cd scripts/
-ls
-nvim bar.sh 
-cd bar_themes/
-ls
-nvim onedark 
-nvim onedark 
-..
-ls
-nvim bar.sh 
-exit
-dlds
-nvim clock
-chmod +x clock 
-./clock 
-mkdir /usr/share/biinin/statusbar
-sudo mkdir /usr/share/biinin/statusbar
-ls
-sudo mkdir /usr/local/bin/statusbar
-sudo cp clock /usr/local/bin/statusbar/
-cdc
-ls
-cdc
-ls
-cds
-ls
-git clone https://git.suckless.org/slstatus
-cd slstatus/
-nvim config.def.h 
-mall
-slstatus
-cd
-ls
-cdd
-ls
-nd
-nvim dwm.c
-mall
-slstatus
-sudoedit /usr/local/bin/statusbar/clock 
-slstatus
-sudoedit /usr/local/bin/statusbar/clock 
-slstatus
-sudoedit /usr/local/bin/statusbar/clock 
-cds
-cd slstatus/
-ls
-nvim Makefile 
-nvim Makefile 
-nvim config.def.h 
-mall
-slstatus
-sudoedit /usr/local/bin/statusbar/clock 
-mall
-slstatus
-cdd
-ls
-nd
-mall
-cdd
-ls
-make cleanup
-ls
-patch -p1 < ~/Downloads/dwm-bar-height-spacing-6.3.diff 
-nvim config.def.h.rej 
-nd
-mall
-startx
-startx
-startx
-startx
-neofetch
-cdc
-ls
-cd neofetch/
-ls
-cd ..
-cd neofetch/
-cp ~/.local/src/voidcraft/files/skel/.config/neofetch/config.conf .
-neofetch
-h
-cds
-git clone https://github.com/bakkeby/patches
-poweroff
-light -S 70
-cdd
-ls
-make cleanup
-patch -p1 < ~/Downloads/dwm-statuscmd-status2d-20210405-60bb3df.diff 
-nvim dwm.c.rej 
-nvim dwm.c
-nd
 nvim config.def.h.rej 
 nd
 mall
@@ -498,3 +395,106 @@ ls
 ..
 cd
 ls
+pulsemixer --get-volume | cut -d' ' -f1
+exit
+git init --bare $HOME/.cfg
+config config --local status.showUntrackedFiles no
+cds
+cd dwmblocks-async/
+ls
+rm -rf .git
+rm -rf .github/
+ls
+rm .gitignore 
+..
+cdc
+cd nvim/
+ls
+rm -rf .git/
+cd
+config add .bashrc
+config add .bash_history 
+config add .Xresources 
+config add .config/alacritty
+config add .config/dunst
+config add .config/nvim
+config add .config/rofi
+config add .config/picom
+config add .config/sxhkd
+config add .config/neofetch
+ls .config/
+aliases
+aliases
+alias
+confcom "Initial commit"
+config remote add origin git@github.com:amazingwilf/dots.git
+cds
+cd dwmblocks-async/
+ls
+mkdir scripts
+cd scripts/
+cp /usr/local/bin/statusbar/* .
+ls
+cd
+cds
+cd dwmblocks-async/
+ls
+cd
+config add .local/src/dwmblocks-async
+confcom "Adding dwmblocks source"
+confpush 
+docs
+ls
+./volume 
+./sb-volume 
+ls
+sh battery.sh 
+nvim volume 
+sh battery.sh 
+./volume 
+nvim ./volume 
+./volume 
+nvim ./volume 
+./volume 
+nvim ./volume 
+./volume 
+nvim ./volume 
+./volume 
+nvim ./volume 
+./volume 
+nvim ./volume 
+./volume 
+nvim ./volume 
+nvim ./volume 
+./volume 
+nvim ./volume 
+./volume 
+nvim ~/.local/src/utkarsh/.local/bin/statusbar/sb-volume 
+nvim volume 
+./volume 
+sudo cp volume /usr/local/bin/statusbar/
+cds
+cd dwmblocks-async/
+ls
+nvim config.h 
+mall
+exit
+sudoedit /usr/local/bin/volume 
+nvim .local/src/utkarsh/.local/bin/statusbar/sb-volume 
+sudoedit /usr/local/bin/statusbar/volume 
+exit
+pavucontrol 
+sudoedit /usr/local/bin/statusbar/volume 
+sudoedit /usr/local/bin/statusbar/battery 
+sudoedit /usr/local/bin/statusbar/volume 
+docs
+ls
+nvim battery.sh 
+sudoedit /usr/local/bin/statusbar/volume 
+nvim battery.sh 
+sudoedit /usr/local/bin/statusbar/volume 
+wpctl get-volume
+nvim /usr/local/bin/volume 
+pulsemixer --get-status
+pulsemixer --get-mute
+exit
