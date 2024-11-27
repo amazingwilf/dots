@@ -1,111 +1,3 @@
-nvim config.def.h.rej 
-nd
-mall
-exit
-cds
-git clone https://github.com/UtkarshVerma/dwmblocks-async
-cd dwmblocks-async/
-ls
-..
-git clone https://github.com/UtkarshVerma/dotfiles
-git clone https://github.com/UtkarshVerma/dotfiles utkarsh
-cd utkarsh/
-cd .local/
-cd bin/
-cd statusbar/
-ls
-nvim sb-date 
-apt install calcurse
-xbps-install calcurse 
-calcurse
-cds
-cd
-cdd
-nd
-cds
-cd utkarsh/
-ls
-cd .local/
-cd bin
-cd statusbar/
-nvim sb-date 
-sudoedit /usr/local/bin/statusbar/clock 
-cds
-cd dwmblocks-async/
-ls
-nvim config.h 
-mall
-xbps-install xcb-util-devel 
-mall
-cdd
-nvim config.def.h
-mall
-dwmblocks
-cds
-cd dwmblocks-async/
-nvin config.h 
-nvim config.h 
-mall
-man date
-exit
-sudoedit /usr/local/bin/statusbar/clock 
-cds
-ls
-cd dotfiles/
-cd bin/
-nvim volume 
-nvim brightness 
-...
-cd utkarsh/
-ls
-cd .local/
-cd bin
-ls
-cd statusbar/
-ls
-nvim sb-date 
-sudoedit /usr/local/bin/statusbar/clock 
-sudoedit /usr/local/bin/statusbar/clock 
-sudoedit /usr/local/bin/statusbar/clock 
-sudoedit /usr/local/bin/statusbar/clock 
-cd /usr/local/bin/statusbar/
-ls
-sudoedit clock 
-sudoedit colors.txt
-sudo mv colors.txt colors.sh
-nvim solors.sh
-sudoedit colors.sh 
-ls
-sudoedit clock
-startx
-startx
-startx
-sudo chmod +x color
-cd /usr/local/bin/statusbar/
-ls
-sudo chmod +x colors.sh 
-cd
-startx
-exit
-startx
-exit
-cds
-cd utkarsh/
-cd .local/
-cd bin
-cd statusbar/
-ls -la
-nvim sb-theme 
-nvim sb-mail 
-cd /usr/local/bin/statusbar/
-ls
-cd -
-nvim sb-theme 
-cd
-cd /usr/local/bin
-cd statusbar/
-ls
-mv colors.sh colors
 sudo mv colors.sh colors
 sudoedit clock 
 cdd
@@ -498,3 +390,111 @@ nvim /usr/local/bin/volume
 pulsemixer --get-status
 pulsemixer --get-mute
 exit
+startx
+startx
+startx
+sudoedit /usr/local/bin/statusbar/volume 
+cds
+cd dwmblocks-async/
+cd scripts/
+ls
+cp /usr/local/bin/statusbar/volume .
+ls
+cd ..
+cd
+config add .local/src/dwmblocks-async/
+confcom "Adding scripts"
+confpush
+poweroff
+cdd
+git sync
+git pull master
+git pull
+mall
+cdd
+nd
+mall
+nd
+mall
+cdd
+nd
+mall
+xev
+xprop
+cdd
+nd
+mall
+cdd
+nd
+mall
+docs
+ls
+nvim brightness
+chmod +x brightness 
+./brightness 
+chmod +x brightness 
+nvim brightness
+./brightness 
+nvim brightness
+nvim brightness
+./brightness 
+nvim brightness 
+sudoedit /usr/local/bin/statusbar/volume 
+sudoedit /usr/local/bin/statusbar/volume 
+docs
+nvim brightness 
+./brightness 
+nvim brightness 
+./brightness 
+nvim brightness 
+./brightness 
+ls
+sudo cp brightness /usr/local/bin/statusbar/
+cds
+cd dwmblocks-async/
+nvim config.h 
+mall
+cdd
+cd
+sudoedit /usr/local/bin/statusbar/brightness 
+cds
+ls
+cd chadwm/
+ls
+cd scripts/
+ls
+nvim bar.sh 
+{ timeout 20 doas xbps-install -un 2>/dev/null || true; } | wc -l) 
+xbps-install -un 2>/dev/null || true
+xbps-install -un
+man xbps-install 
+man xbps-query
+nvim bar.sh 
+docs
+nvim updates
+chmod +x updates 
+./updates 
+nvim updates
+./updates 
+nvim updates
+./updates 
+doas xbps-install -Su
+xbps-install -nuM | wc -l
+nvim updates 
+./updates 
+sudo cp updates /usr/local/bin/statusbar/
+cds
+cd dwmblocks-async/
+nvim config.h 
+mall
+cdd
+nd
+mall
+sudoedit /usr/local/bin/statusbar/clock 
+sudoedit /usr/local/bin/statusbar/updates 
+sudoedit /usr/local/bin/statusbar/updates 
+nx
+merge
+cdd
+nd
+mall

@@ -20,7 +20,7 @@ dwm.normbordercolor:		col_gray
 dwm.normfloatcolor:			col_gray
 
 dwm.selfgcolor:				col_white
-dwm.selbgcolor:				col_black
+dwm.selbgcolor:				#010191
 dwm.selbordercolor:			col_blue
 dwm.selfloatcolor:			col_pink
 
@@ -35,7 +35,7 @@ dwm.tagsoccbordercolor:		col_black
 dwm.tagsoccfloatcolor:		col_black
 
 dwm.tagsselfgcolor:			col_white
-dwm.tagsselbgcolor:			col_black
+dwm.tagsselbgcolor:			#010191
 dwm.tagsselbordercolor:		col_black
 dwm.tagsselfloatcolor:		col_black
 
