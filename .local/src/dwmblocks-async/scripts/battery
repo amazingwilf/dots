@@ -1,0 +1,31 @@
+#!/bin/sh
+
+. /usr/local/bin/statusbar/colors
+
+capacity="$(cat "/sys/class/power_supply/BAT1/capacity" 2>&1)"
+status="$(cat "/sys/class/power_supply/BAT1/status" 2>&1)"
+
+if [ "$capacity" -gt 90 ]; then
+    levelicon=" "
+elif [ "$capacity" -gt 60 ]; then
+    levelicon=" "
+elif [ "$capacity" -gt 40 ]; then
+    levelicon=" "
+elif [ "$capacity" -gt 10 ]; then
+    levelicon=" "
+else
+    levelicon=" "
+fi
+
+if [ `acpi -a | awk -F ':' '{printf "%s", $2}'` = "on-line" ]; then
+    displayicon=""  
+else
+    displayicon=$levelicon
+fi
+
+case "$BLOCK_BUTTON" in
+    1) notify "$(acpi -b | awk -F ': |, ' '{printf "%s\n%s\n", $2, $4}')" ;;
+    6) terminal -e "$EDITOR" "$0" ;;
+esac
+
+echo "^c$pink^$displayicon $capacity%"
