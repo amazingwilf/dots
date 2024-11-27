@@ -10,7 +10,7 @@ case "$BLOCK_BUTTON" in
 esac
 
 current=`pulsemixer --get-volume | cut -d' ' -f1`
-status='pulsemixer --get-mute'
+status=`pulsemixer --get-mute`
 
 if [[ "$current" -eq "0" ]]; then
     icon=""
@@ -23,7 +23,7 @@ elif [[ ( "$current" -ge "60" ) && ( "$current" -le "100" ) ]]; then
 fi
 
 if [[ "$status" -eq "1" ]]; then
-    echo "^c$gray^󰖁 Muted"
+    echo "󰖁 Muted"
 else
     echo "^c$green^$icon $current%"
 fi

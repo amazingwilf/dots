@@ -1,58 +1,3 @@
-sudo mv colors.sh colors
-sudoedit clock 
-cdd
-ls
-make cleanup
-ls
-nd
-mall
-cd
-sudoedit /usr/local/bin/clock
-sudoedit /usr/local/bin/statusbar/clock 
-cdd
-ls
-nvim config.def.h 
-nvim dwm.c
-mall
-sudoedit clock 
-cdd
-ls
-ls
-nvim config.def.h 
-nvim dwm.c
-mall
-cdd
-nd
-mall
-exit
-cat /sys/class/power_supply/BAT1/capacity
-xit
-exit
-cat colors 
-sudoedit colors 
-exit
-nx
-exit
-cd
-ls
-rm FAIL 
-cds
-ls
-cd utkarsh/
-ls
-cd .local/
-cd bin/
-cd statusbar/
-cp sb-battery ~/Documents/
-docs
-ls
-nvim sb-battery 
-./sb-battery 
-nvim sb-battery 
-./sb-battery 
-nvim sb-battery 
-./sb-battery 
-nvim sb-battery 
 ./sb-battery 
 ./sb-battery 
 ./sb-battery 
@@ -497,4 +442,59 @@ nx
 merge
 cdd
 nd
+mall
+pulsemixer --get-mute
+pulsemixer --get-mute
+ocnfig add .local/src/dwmblocks-async/
+config add .local/src/dwmblocks-async/
+confcom "Tweaks"
+cds
+cd dwmblocks-async/
+ls
+cd scripts/
+ls
+cp /usr/local/bin/statusbar/brightness .
+cp /usr/local/bin/statusbar/updates .
+ls
+cd
+config add .local/src/dwmblocks-async/
+confcom "Tweaks"
+confpush
+sudoedit /usr/local/bin/statusbar/volume 
+man pulsemixer
+pulsemixer --help
+man pactl
+pactl --get-source-mute
+man pactl
+pactl get-source-mute
+man pactl
+pactl stat
+pactl get-source-mute 1
+pactl get-source-mute 1
+pactl get-source-mute 1
+pactl get-source-mute 1
+man wpctl
+wpctl
+sudoedit /usr/local/bin/statusbar/volume 
+cds
+cd dwmblocks-async/
+cd scripts/
+cp volume ~/Documents/
+docs
+./volume 
+nvim volume 
+./volume 
+./volume 
+nvim volume 
+./volume 
+cd /usr/local/bin/
+cd statusbar/
+sudoedit volume 
+cd
+cds
+cd dwmblocks-async/
+cd scripts/
+cp /usr/local/bin/statusbar/volume .
+..
+nvim config.h 
 mall
