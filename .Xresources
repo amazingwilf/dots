@@ -1,0 +1,47 @@
+Xft.dpi:	144
+
+Xcursor.theme:	Breeze_Snow
+Xcursor.size:	44
+
+#define col_black	#000000
+#define col_white	#abb2bf
+#define col_gray	#545862
+#define col_blue	#61afef
+#define col_green	#7EC7A2
+#define col_red		#e06c75
+#define col_orange	#caaa6a
+#define col_yellow	#EBCB8B
+#define col_pink	#c678dd
+#define col_pinky	#d57780
+
+dwm.normfgcolor:			col_white
+dwm.normbgcolor:			col_black
+dwm.normbordercolor:		col_gray
+dwm.normfloatcolor:			col_gray
+
+dwm.selfgcolor:				col_white
+dwm.selbgcolor:				col_black
+dwm.selbordercolor:			col_blue
+dwm.selfloatcolor:			col_pink
+
+dwm.tagsemptyfgcolor:		col_gray
+dwm.tagsemptybgcolor:		col_black
+dwm.tagsemptybordercolor:	col_black
+dwm.tagsemptyfloatcolor:	col_black
+
+dwm.tagsoccfgcolor:			col_blue
+dwm.tagsoccbgcolor:			col_black
+dwm.tagsoccbordercolor:		col_black
+dwm.tagsoccfloatcolor:		col_black
+
+dwm.tagsselfgcolor:			col_white
+dwm.tagsselbgcolor:			col_black
+dwm.tagsselbordercolor:		col_black
+dwm.tagsselfloatcolor:		col_black
+
+dwm.ltsymbolfgcolor:		col_yellow
+dwm.ltsymbolbgcolor:		col_black
+dwm.ltsymbolbordercolor:	col_black
+dwm.ltsymbolfloatcolor:		col_black
+
+
