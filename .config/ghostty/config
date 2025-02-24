@@ -1,0 +1,9 @@
+theme = "OneHalfDark"
+font-size = 12
+window-decoration = false
+cursor-style = block
+adjust-cursor-thickness = 3
+background = #101010
+background-opacity = 0.85
+window-padding-x = 8
+window-padding-y = 8
