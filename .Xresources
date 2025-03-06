@@ -1,4 +1,35 @@
-Xft.dpi:	192
+Xft.dpi:	            192
 
-Xcursor.theme:	Bibata-Modern-Ice
-Xcursor.size:	44
+Xcursor.theme:	        Future-Dark
+Xcursor.size:	        44
+
+dwm.normfgcolor:        #abb2bf
+dwm.normbgcolor:        #000000
+dwm.normbordercolor:    #545862
+
+dwm.selfgcolor:         #dcdfe4
+dwm.selbgcolor:         #000000
+dwm.selbordercolor:     #61afef
+
+dwm.floatfgcolor:       #bbbbbb
+dwm.floatbgcolor:       #000000
+dwm.floatbordercolor:   #c678dd
+
+dwm.stbuttonfgcolor:    #56b6c2
+dwm.stbuttonbgcolor:    #880000
+
+dwm.ltsymbolfgcolor:    #e5c07b
+dwm.ltsymbolbgcolor:    #000000
+
+dwm.tagsselfgcolor:     #dcdfe4
+dwm.tagsselbgcolor:     #000000
+
+dwm.tagsemptyfgcolor:   #454545
+dwm.tagsemptybgcolor:   #000000
+
+dwm.tag1fgcolor:        
+dwm.tag2fgcolor:        #e06c75
+dwm.tag3fgcolor:        #98c379
+dwm.tag4fgcolor:        #e5c07b
+dwm.tag5fgcolor:        #61afef
+dwm.tag6fgcolor:        #c678dd 
