@@ -3,11 +3,12 @@
 /* Colors */
 
 * {
-    background:     #1e222a;
+    background:     #101010;
     background-alt: #262A32;
-    foreground:     #c8ccd4;
-    selected:       #61afef;
-    active:         #98c379;
+    foreground:     #abb2bf;
+    foreground-alt: #dcdfe4;
+    selected:       #b101b1;
+    active:         #1c6b2b;
     urgent:         #e06c75;
     border:         #c678dd;
 }
