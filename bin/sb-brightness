@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+brightness=$(light)
+current=$(printf "%.0f" $brightness)
+
+if [[ ( "$current" -ge "0" ) && ( "$current" -le "9" ) ]]; then
+	icon=""
+elif [[ ( "$current" -ge "10" ) && ( "$current" -le "19" ) ]]; then
+	icon=""
+elif [[ ( "$current" -ge "20" ) && ( "$current" -le "29" ) ]]; then
+	icon=""
+elif [[ ( "$current" -ge "30" ) && ( "$current" -le "39" ) ]]; then
+	icon=""
+elif [[ ( "$current" -ge "40" ) && ( "$current" -le "49" ) ]]; then
+	icon=""
+elif [[ ( "$current" -ge "50" ) && ( "$current" -le "59" ) ]]; then
+	icon=""
+elif [[ ( "$current" -ge "60" ) && ( "$current" -le "69" ) ]]; then
+	icon=""
+elif [[ ( "$current" -ge "70" ) && ( "$current" -le "79" ) ]]; then
+	icon=""
+elif [[ ( "$current" -ge "80" ) && ( "$current" -le "89" ) ]]; then
+	icon=""
+elif [[ ( "$current" -ge "90" ) && ( "$current" -le "100" ) ]]; then
+	icon=""
+else
+	icon="? "
+fi
+
+echo "^C3^$icon ^d^$current%"
+
+case "$BLOCK_BUTTON" in
+	4) brightness --inc ;;
+    5) brightness --dec ;;
+esac
