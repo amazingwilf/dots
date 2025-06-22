@@ -1,12 +1,12 @@
 export EDITOR=nvim
 export VISUAL=nvim
 
-alias xbps-install='doas xbps-install'
-alias update='xbps-install -Su'
-alias query='xbps-query -Rs'
+alias apt='doas apt'
+alias update='apt update'
+alias upgrade='apt dist-upgrade'
 
-alias poweroff='doas poweroff'
-alias reboot='doas reboot'
+alias poweroff='doas /sbin/poweroff'
+alias reboot='doas /sbin/reboot'
 
 alias ..='cd ..'
 alias ...='cd ../../'
